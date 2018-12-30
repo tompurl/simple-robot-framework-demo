@@ -1,0 +1,18 @@
+#+TITLE: readme
+
+
+*** Settings ***
+Documentation  TomPurlIndex web application page object.
+
+*** Variables ***
+${tompurlindex.blog_archive}         css=a[href='blog-archive.html']
+${tompurlindex.braindump}            css=a[href='braindump.html']
+${tompurlindex.github}               css=a[href='https://github.com/tompurl']
+${tompurlindex.heres_my_public_key}  css=a[href='https://dl.dropboxusercontent.com/u/4368842/toms-public-email-key.asc']
+${tompurlindex.page_loaded_text}     Also, you don't have to use GPG to encrypt the message, but if you're
+${tompurlindex.page_url}             /
+${tompurlindex.tomtompurl_com}       css=a[href='mailto:tom@tompurl.com']
+${tompurlindex.tweets}               css=a[href='https://twitter.com/tompurl']
+${tompurlindex.vimeo}                css=a[href='https://vimeo.com/user3972465']
+
+*** Keywords ***
