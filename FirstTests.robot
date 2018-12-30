@@ -2,7 +2,7 @@
 Documentation    Testing the new braindump feature
 Library    Selenium2Library
 
-Resource    ./TomPurlIndePageObjects.robot
+Resource    ./TomPurlIndexPageObjects.robot
 Resource    ./TomPurlBraindumpPageObjects.robot
 
 *** Test Cases ***
