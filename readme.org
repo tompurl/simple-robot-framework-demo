@@ -1,18 +1,15 @@
-#+TITLE: readme
+#+TITLE: Readme 
 
+* Overview
 
-*** Settings ***
-Documentation  TomPurlIndex web application page object.
+A simple Robot framework demo that shows how to click on a link and
+ensure that you then visit the right page.
 
-*** Variables ***
-${tompurlindex.blog_archive}         css=a[href='blog-archive.html']
-${tompurlindex.braindump}            css=a[href='braindump.html']
-${tompurlindex.github}               css=a[href='https://github.com/tompurl']
-${tompurlindex.heres_my_public_key}  css=a[href='https://dl.dropboxusercontent.com/u/4368842/toms-public-email-key.asc']
-${tompurlindex.page_loaded_text}     Also, you don't have to use GPG to encrypt the message, but if you're
-${tompurlindex.page_url}             /
-${tompurlindex.tomtompurl_com}       css=a[href='mailto:tom@tompurl.com']
-${tompurlindex.tweets}               css=a[href='https://twitter.com/tompurl']
-${tompurlindex.vimeo}                css=a[href='https://vimeo.com/user3972465']
-
-*** Keywords ***
+* Recreation Step
+** Define test cases in =FirstTests.robot=
+** Create First Pageobjects File Of =index.html=
+** Define keywords in =FirstTests.robot=
+** Create Second Pageobjects File Of =braindump.html=
+** Complete Test cases and keywords in =FirstTests.robot=
+** Run tests
+** Go over awesome logging
